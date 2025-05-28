@@ -1,0 +1,136 @@
+<VRTDataset rasterXSize="4706" rasterYSize="4706">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 11N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-117],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32611"]]</SRS>
+  <GeoTransform>  3.9996000000000000e+05,  2.3333333333333332e+01,  0.0000000000000000e+00,  3.8000400000000000e+06,  0.0000000000000000e+00, -2.3333333333333332e+01</GeoTransform>
+  <VRTRasterBand dataType="UInt16" band="1">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B01.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1830" RasterYSize="1830" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1830" ySize="1830" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="2">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B02.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10980" RasterYSize="10980" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10980" ySize="10980" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="3">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B03.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10980" RasterYSize="10980" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10980" ySize="10980" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="4">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B04.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10980" RasterYSize="10980" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10980" ySize="10980" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="5">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B05.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="6">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B06.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="7">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B07.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="8">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B08.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="10980" RasterYSize="10980" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="10980" ySize="10980" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="9">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B09.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="1830" RasterYSize="1830" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="1830" ySize="1830" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="10">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B11.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="11">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B12.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="UInt16" band="12">
+    <NoDataValue>0</NoDataValue>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">S2C_MSIL2A_20250303T183311_R027_T11SMT_20250303T232011_B8A.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="5490" RasterYSize="5490" DataType="UInt16" BlockXSize="512" BlockYSize="512" />
+      <SrcRect xOff="0" yOff="0" xSize="5490" ySize="5490" />
+      <DstRect xOff="0" yOff="0" xSize="4705.71428571429" ySize="4705.71428571429" />
+      <NODATA>0</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
