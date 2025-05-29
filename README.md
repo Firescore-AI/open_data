@@ -13,9 +13,11 @@ Key research questions include:
 
 
 ## Repository Structure
-	•	Top-level folders represent individual study_areas 
-	•	Subfolders include raw Sentinel-2 band data as geoTIFFs, and 
-	•	Sentinel-2 Super-resolution data for the same dates, also in geoTIFF format
+	• la_habra_heights_ca contains all data
+	• sentinel-2 contains ESA sentinel-2 optical data and derivatives 
+		• native_res - Contains native resolution band data 
+		• super_res - Contains super-resolution data for the same dates
+	• usgs_lidar - our cleaned and classified LiDAR from USGS (available nationally)
 	
 ## Working with GeoTIFFs
 
@@ -44,6 +46,15 @@ For a discussion of super-resolution techniques in general, please refer to this
 The specific super-resolution model used here was S2DR3 from our partner Gamma Earth.  Additional modeling details can be found here:
 
 [https://www.linkedin.com/posts/gamma-earth_sentinel-2-deep-resolution-30-activity-7114515233502580737-DZDA](https://www.linkedin.com/posts/gamma-earth_sentinel-2-deep-resolution-30-activity-7114515233502580737-DZDA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAF5zjUB_rflNQcZsiALlBm-MaiRm9lFHq4)
+
+## Working with LiDAR Point Clouds
+You can either work with the data downloaded locally, or by accessing the point cloud from our server.
+
+Clicking the link below is simplest and should stream data to you via the poTree web application.  Speed will be relative to your location and our US-West server.
+
+[https://lidaru.firescore.ai/firescore_ai/eb/pcd_usgs_lahabracopy.html?c=classification](https://lidaru.firescore.ai/firescore_ai/eb/pcd_usgs_lahabracopy.html?c=classification)
+
+The raw data are also in gitHub, published using their large file storage (lfs).  This should be transparent to you, and you can simply clone all or part of this repo to make a fully local high speed copy.  We recommend the open source "Cloud Compare" software to visualize this type of data, although qGIS and ESRI also work well.
 
 ## Utility and Reliability
 
