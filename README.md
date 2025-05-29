@@ -1,4 +1,4 @@
-#Firescore-AI Open Data
+# Firescore-AI Open Data
 
 Welcome to the Firescore-AI Open Data repository. This resource is designed to support fire researchers with high-quality, open-access geospatial datasets and AI-enhanced imagery for wildfire risk assessment and mitigation.
 
@@ -16,14 +16,20 @@ Key research questions include:
 	•	Top-level folders represent individual study_areas 
 	•	Subfolders include raw Sentinel-2 band data as geoTIFFs, and 
 	•	Sentinel-2 Super-resolution data for the same dates, also in geoTIFF format
+	
+## Working with GeoTIFFs
 
-##Sentinel-2 Optical Imagery
+GeoTIFF images are a special form of imagery which includes special binary tags that help geoposition the image relative to the earth.
+
+These generally require specialized GIS or python tools to display correctly.  If your organization has ESRI ArcMap or similar software, these data should read directly.  The open source qGIS program can also be used.
+
+## Sentinel-2 Optical Imagery
 
 The European Space Agency (ESA) provides open data access to a set of satellites known as Sentinel-2. These provide 13 multispectral bands, ranging in ground sample distance resolution from 10m to 60m. This imagery is available for a given location on earth every 2-5 days. It can be used to generate a number of useful vegetation indices, including NVDI (normalized vegetation difference index), NDRE (normalized difference red edge index) and NDWI (normalized difference wetness index). These are all relevant in assessing vegetation condition, including in the "firesafe" zones around buildings.
 
 Sentinel-2 imagery is ©Copernicus data (2025)
 
-##Image Super-resolution
+## Image Super-resolution
 
 Zone 0 is define to be 5 feet from structures, or roughly 1.5m, which is not resolvable in raw Sentinel-2 imagery.
 
@@ -39,7 +45,7 @@ The specific super-resolution model used here was S2DR3 from our partner Gamma E
 
 [https://www.linkedin.com/posts/gamma-earth_sentinel-2-deep-resolution-30-activity-7114515233502580737-DZDA](https://www.linkedin.com/posts/gamma-earth_sentinel-2-deep-resolution-30-activity-7114515233502580737-DZDA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAF5zjUB_rflNQcZsiALlBm-MaiRm9lFHq4)
 
-##Utility and Reliability
+## Utility and Reliability
 
 As statistician George Box once famously said: "all models are wrong, but some are useful." Our initiative in releasing this imagery and associated datasets is to help researchers or interested hobbiests in assessing the suitability of super-resolution imagery across a variety of digital twin generation or downstream purposes.
 
