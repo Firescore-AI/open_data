@@ -56,6 +56,16 @@ Clicking the link below is simplest and should stream data to you via the poTree
 
 The raw data are also in gitHub, published using their large file storage (lfs).  This should be transparent to you, and you can simply clone all or part of this repo to make a fully local high speed copy.  We recommend the open source "Cloud Compare" software to visualize this type of data, although qGIS and ESRI also work well.
 
+## GIS Files
+
+We have also included some appropriate GIS files for fire hazard planning.
+
+These include terrain and terrain derivatives like slope, aspect and hillshade in a 'terrain' subfolder.
+
+They also include LA County Parcels 2025 and Building Footprints buffered out 5' to Zone 0.
+
+Lastly, we've included a clip of the latest available USGS Landfire data describing the area's fuels.
+
 ## Utility and Reliability
 
 As statistician George Box once famously said: "all models are wrong, but some are useful." Our initiative in releasing this imagery and associated datasets is to help researchers or interested hobbiests in assessing the suitability of super-resolution imagery across a variety of digital twin generation or downstream purposes.
